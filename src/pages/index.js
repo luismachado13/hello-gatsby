@@ -11,7 +11,7 @@ export default function Home({data}) {
     <div style={{ color: `purple` }}>
       <Header headerText="Hello Gatsby!" />
       <p>Site exemplo em Gatsby do</p>
-      <p>TEste</p>
+      <p>TEstes</p>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
